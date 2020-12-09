@@ -12,6 +12,7 @@
 >   * echo "export PATH=~/bin:$PATH" >> ~/.zshrc
 >   * chmod a+x ~/bin/repo
 >* protoc version-3.0.0
+>* python 3.6
 
 ## Fetch Flightmare and Dependency
 >* repo init --no-repo-verify -u https://github.com/kongdaqing/SimFlightmare.git -m default.xml -b master
