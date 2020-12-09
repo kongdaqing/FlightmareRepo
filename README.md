@@ -1,6 +1,6 @@
 # SimFlightmare
 
-**SimFlightmare** is manager of all repos about Flightmare which is simulator for studying uav navigation,control and slam etc.You can install flightmare through [uzh-rpg/flightmare!](https://github.com/uzh-rpg/flightmare) driectly,or you can use this repo for quick start.Attention,flightmare must be installed on ros platform through this repo.
+**SimFlightmare** is manager of all repos about Flightmare which is simulator for studying uav navigation,control and slam etc through **repo tool**.You can install flightmare through [uzh-rpg/flightmare](https://github.com/uzh-rpg/flightmare) driectly,or you can use this repo for quick start.Attention,Flightmare must be installed with ros through this repo.
 ## Platform 
 >* ubuntu18 
 >* ros-melodic 
