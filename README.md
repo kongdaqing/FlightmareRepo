@@ -13,7 +13,7 @@
 
 Before continuing, make sure that your protobuf compiler version is 3.0.0. To check this out, type in a terminal **protoc --version**.
 ## Fetch Flightmare and Dependency
->* repo init --no-repo-verify -u git@github.com:kongdaqing/SimFlightmare.git -m default.xml -b master
+>* repo init --no-repo-verify -u https://github.com/kongdaqing/SimFlightmare.git -m default.xml -b master
 >* repo sync
  
 ## Build Flightmare
