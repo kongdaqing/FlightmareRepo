@@ -25,7 +25,7 @@
 >* catkin_make
 
 ## Download Unity Binary
->* Download the Flightmare Unity Binary [RPG_Flightmare.tar.xz](https://flightmare.readthedocs.io/en/latest/getting_started/quick_start.html) for rendering from the Releases and extract it into the ~/FlightmareRepos/src/flightmare/flightrender.
+>* Click [the link](https://flightmare.readthedocs.io/en/latest/getting_started/quick_start.html) and find title **Download Flightmare Unity Binary**,then click **Download** buttom to download the Flightmare Unity Binary RPG_Flightmare.tar.xz for rendering from the Releases and extract it into the ~/FlightmareRepos/src/flightmare/flightrender.
 
 ## Run Flightmare
 >* roslaunch flightros rotors_gazebo.launch
