@@ -6,7 +6,10 @@
 >* ros-melodic 
 >   * sudo apt-get install libgoogle-glog-dev protobuf-compiler ros-$ROS_DISTRO-octomap-msgs ros-$ROS_DISTRO-octomap-ros ros-$ROS_DISTRO-joy python-vcstool
 >* repo tools
->   * sudo apt-get install repo
+>   * mkdir ~/bin
+>   * curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+>   * chmod +x ~/bin/repo
+>   * sudo mv ~/bin/repo /usr/bin
 
 Before continuing, make sure that your protobuf compiler version is 3.0.0. To check this out, type in a terminal **protoc --version**.
 ## Fetch Flightmare and Dependency
