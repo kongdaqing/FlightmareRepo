@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="ssh://git@github.com" name="origin" />
+
+    <default remote="origin" revision="master" />
+
+    <!--tools-->
+    <!--project path="tools/build_scripts" name="cheerios/build_scripts" revision="rovio_dev" >
+        <linkfile dest="set_env.sh" src="set_env.sh" />
+        <linkfile dest="Makefile" src="Makefile" />
+        <linkfile dest="CMakeLists.txt" src="CMakeLists.txt" />
+        <linkfile dest="install.sh" src="install.sh" />
+        <linkfile dest="adsp_signed.sh" src="adsp_signed.sh" /-->
+    </project>
+    <project path="src/catkin_simple" name="catkin/catkin_simple" >
+    <project path="src/eigen_catkin" name="ethz-asl/eigen_catkin" >
+<!--
+    repositories:
+  catkin_simple:
+    type: git
+    url: git@github.com:catkin/catkin_simple.git
+    version: master
+  eigen_catkin:
+    type: git
+    url: git@github.com:ethz-asl/eigen_catkin.git
+    version: master
+  mav_comm:
+    type: git
+    url: git@github.com:ethz-asl/mav_comm.git
+    version: master
+  rotors_simulator:
+    type: git
+    url: git@github.com:ethz-asl/rotors_simulator.git
+    version: master
+  rpg_quadrotor_common:
+    type: git
+    url: git@github.com:uzh-rpg/rpg_quadrotor_common.git
+    version: master
+  rpg_single_board_io:
+    type: git
+    url: git@github.com:uzh-rpg/rpg_single_board_io.git
+    version: master
+  rpg_quadrotor_control:
+    type: git
+    url: git@github.com:uzh-rpg/rpg_quadrotor_control.git
+    version: master
+  -->
+</manifest>
