@@ -28,6 +28,11 @@
 >* Click [the link](https://flightmare.readthedocs.io/en/latest/getting_started/quick_start.html) and find title **Download Flightmare Unity Binary**,then click **Download** buttom to download the Flightmare Unity Binary RPG_Flightmare.tar.xz for rendering from the Releases and extract it into the ~/FlightmareRepos/src/flightmare/flightrender.
 
 ## Run Flightmare
+>* source devel/setup.zsh
 >* roslaunch flightros rotors_gazebo.launch
+
+## First Fly
+>* You will see coarse quadrotor model in the gazebo and realistic quadrotor and enviroment model in the unity,**RPG QUADROTOR GUI** display states of quadrotor,![Like below picture](https://github.com/kongdaqing/SimFlightmare/flightmare_run.png). 
+
 
 
