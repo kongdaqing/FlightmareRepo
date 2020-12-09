@@ -2,12 +2,12 @@
 <manifest>
     <remote fetch="ssh://git@github.com" name="origin" />
     <default remote="origin" revision="master" />
-    <project path="src/catkin_simple" name="catkin/catkin_simple" >
-    <project path="src/eigen_catkin" name="ethz-asl/eigen_catkin" >
-    <project path="src/mav_comm" name="ethz-asl/mav_comm" >
-    <project path="src/rotors_simulator" name="ethz-asl/rotors_simulator" >
-    <project path="src/rpg_quadrotor_common" name="uzh-rpg/rpg_quadrotor_common" >
-    <project path="src/rpg_single_board_io" name="uzh-rpg/rpg_single_board_io" >
-    <project path="src/rpg_quadrotor_control" name="uzh-rpg/rpg_quadrotor_control" >
-    <project path="src/flightmare" name="uzh-rpg/flightmare" >
+    <project path="src/catkin_simple" name="catkin/catkin_simple" />
+    <project path="src/eigen_catkin" name="ethz-asl/eigen_catkin" />
+    <project path="src/mav_comm" name="ethz-asl/mav_comm" />
+    <project path="src/rotors_simulator" name="ethz-asl/rotors_simulator" />
+    <project path="src/rpg_quadrotor_common" name="uzh-rpg/rpg_quadrotor_common" />
+    <project path="src/rpg_single_board_io" name="uzh-rpg/rpg_single_board_io" />
+    <project path="src/rpg_quadrotor_control" name="uzh-rpg/rpg_quadrotor_control" />
+    <project path="src/flightmare" name="uzh-rpg/flightmare" />
 </manifest>
