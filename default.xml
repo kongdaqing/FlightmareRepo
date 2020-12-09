@@ -11,7 +11,6 @@
         <linkfile dest="CMakeLists.txt" src="CMakeLists.txt" />
         <linkfile dest="install.sh" src="install.sh" />
         <linkfile dest="adsp_signed.sh" src="adsp_signed.sh" /-->
-    </project>
     <project path="src/catkin_simple" name="catkin/catkin_simple" >
     <project path="src/eigen_catkin" name="ethz-asl/eigen_catkin" >
 <!--
