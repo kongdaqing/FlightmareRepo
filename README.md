@@ -11,10 +11,11 @@
 >   * echo "export REPO_URL=https://mirrors.tuna.tsinghua.edu.cn/git/git-repo" >> ~/.zshrc
 >   * echo "export PATH=~/bin:$PATH" >> ~/.zshrc
 >   * chmod a+x ~/bin/repo
->* protoc version-3.0.0
+>* protoc 3.0.0
 >* python 3.6
 
 ## Fetch Flightmare and Dependency
+>* mkdir ~/FlightmareRepos && cd ~/FlightmareRepos
 >* repo init --no-repo-verify -u https://github.com/kongdaqing/SimFlightmare.git -m default.xml -b master
 >* repo sync
  
@@ -22,6 +23,9 @@
 >* cd src
 >* catkin_init_workspace
 >* catkin_make
+
+## Download Unity Binary
+>* Download the Flightmare Unity Binary [RPG_Flightmare.tar.xz](https://flightmare.readthedocs.io/en/latest/getting_started/quick_start.html) for rendering from the Releases and extract it into the ~/FlightmareRepos/src/flightmare/flightrender.
 
 ## Run Flightmare
 >* roslaunch flightros rotors_gazebo.launch
