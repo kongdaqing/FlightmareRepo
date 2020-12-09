@@ -33,7 +33,7 @@
 
 ## First Fly
 >* You will see coarse quadrotor model in the gazebo and realistic quadrotor and enviroment model in the unity,**RPG QUADROTOR GUI** display states of quadrotor.
-![Like below picture](https://github.com/kongdaqing/SimFlightmare/tree/master/pictures/flightmare_run.png). 
-<img src="https://github.com/kongdaqing/SimFlightmare/tree/master/pictures/flightmare_run.png" width="200" height="200" alt="flightmare_run"/><br/>
+
+<img src="https://github.com/kongdaqing/SimFlightmare/tree/master/pictures/flightmare_run.png" width="50%" >
 
 
