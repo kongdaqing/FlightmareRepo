@@ -6,12 +6,13 @@
 >* ros-melodic 
 >   * sudo apt-get install libgoogle-glog-dev protobuf-compiler ros-$ROS_DISTRO-octomap-msgs ros-$ROS_DISTRO-octomap-ros ros-$ROS_DISTRO-joy python-vcstool
 >* repo tools
->   * mkdir ~/bin
->   * curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
->   * chmod +x ~/bin/repo
->   * sudo mv ~/bin/repo /usr/bin
+>   * mkdir ~/bin && cd ~/bin
+>   * curl https://mirrors.tuna.tsinghua.edu.cn/git/git-repo -o repo
+>   * echo "export REPO_URL=https://mirrors.tuna.tsinghua.edu.cn/git/git-repo" >> ~/.zshrc
+>   * echo "export PATH=~/bin:$PATH" >> ~/.zshrc
+>   * chmod a+x ~/bin/repo
+>* protoc version-3.0.0
 
-Before continuing, make sure that your protobuf compiler version is 3.0.0. To check this out, type in a terminal **protoc --version**.
 ## Fetch Flightmare and Dependency
 >* repo init --no-repo-verify -u https://github.com/kongdaqing/SimFlightmare.git -m default.xml -b master
 >* repo sync
