@@ -33,7 +33,9 @@
 
 ## First Fly
 >* You will see coarse quadrotor model in the gazebo and realistic quadrotor and enviroment model in the unity,**RPG QUADROTOR GUI** display states of quadrotor.
-
-<img src="https://github.com/kongdaqing/SimFlightmare/tree/master/pictures/flightmare_run.png" width="50%" >
+>* connect joystick
+>* click **connect** bottom on the **RPG QUADROTOR GUI**
+>* click "Arm Bridge" and control quadrotor with joystick
+![](https://github.com/kongdaqing/SimFlightmare/raw/master/pictures/flightmare_run.png)
 
 
